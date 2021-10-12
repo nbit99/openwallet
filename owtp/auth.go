@@ -23,11 +23,11 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"github.com/mr-tron/base58/base58"
 	"github.com/nbit99/go-owcrypt"
 	"github.com/nbit99/openwallet/v2/common"
 	"github.com/nbit99/openwallet/v2/crypto"
 	"github.com/nbit99/openwallet/v2/log"
-	"github.com/mr-tron/base58/base58"
 	"math/big"
 )
 
@@ -180,11 +180,11 @@ func NewCertificate(privateKey string, consultType ...string) (Certificate, erro
 		return Certificate{}, err
 	}
 
-	pubkey, ret := owcrypt.GenPubkey(priKey, owcrypt.ECC_CURVåE_SM2_STANDARD)
+	pubkey, ret := owcrypt.GenPubkey(priKey, owcrypt.ECC_CURVE_SM2_STANDARD)
 	if ret != owcrypt.SUCCESS {
 		return Certificate{}, err
 	}
-å
+
 	//log.Debug("SME PUB:", hex.EncodeToString(pubkey))
 
 	return Certificate{
