@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/common/file"
 	"github.com/shopspring/decimal"
 )

@@ -31,7 +31,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/crypto"
 	"github.com/blocktree/openwallet/v2/crypto/sha3"
 	"github.com/nbit99/go-owcdrivers/owkeychain"

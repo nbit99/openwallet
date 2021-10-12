@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/log"
 	"github.com/imroc/req"
 	"github.com/mr-tron/base58/base58"

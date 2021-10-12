@@ -23,7 +23,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/common"
 	"github.com/blocktree/openwallet/v2/crypto"
 	"github.com/blocktree/openwallet/v2/log"

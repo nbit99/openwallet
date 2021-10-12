@@ -25,7 +25,7 @@ import (
 
 	"github.com/astaxie/beego/config"
 	"github.com/nbit99/go-owcdrivers/addressEncoder"
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/common"
 	"github.com/blocktree/openwallet/v2/common/file"
 	"github.com/blocktree/openwallet/v2/hdkeystore"

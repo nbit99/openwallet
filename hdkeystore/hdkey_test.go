@@ -16,7 +16,7 @@
 package hdkeystore
 
 import (
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"testing"
 	"encoding/hex"
 )

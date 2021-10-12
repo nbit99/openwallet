@@ -18,7 +18,7 @@ package openw
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 	"github.com/blocktree/openwallet/v2/log"
 	"github.com/blocktree/openwallet/v2/openwallet"
 	"time"

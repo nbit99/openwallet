@@ -40,7 +40,7 @@ import (
 	//"github.com/go-ethereum/crypto/secp256k1"
 	"sort"
 
-	"github.com/blocktree/go-owcrypt"
+	"github.com/nbit99/go-owcrypt"
 )
 
 const (
