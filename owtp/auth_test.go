@@ -19,8 +19,8 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/log"
 	"github.com/mr-tron/base58/base58"
 	"testing"
 )

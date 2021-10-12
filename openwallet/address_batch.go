@@ -19,8 +19,8 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/nbit99/go-owcdrivers/owkeychain"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/log"
 )
 
 type AddressCreateResult struct {

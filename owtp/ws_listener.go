@@ -18,7 +18,7 @@ package owtp
 import (
 	"context"
 	"fmt"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/log"
 	ws "github.com/gorilla/websocket"
 	"github.com/pkg/errors"
 	"net"

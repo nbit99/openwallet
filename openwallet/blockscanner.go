@@ -17,12 +17,12 @@ package openwallet
 
 import (
 	"fmt"
-	"github.com/blocktree/openwallet/v2/concurrent"
+	"github.com/nbit99/openwallet/v2/concurrent"
 	"sync"
 	"time"
 
-	"github.com/blocktree/openwallet/v2/log"
-	"github.com/blocktree/openwallet/v2/timer"
+	"github.com/nbit99/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/timer"
 )
 
 //deprecated

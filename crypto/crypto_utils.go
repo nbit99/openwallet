@@ -6,7 +6,7 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"fmt"
-	"github.com/blocktree/openwallet/v2/crypto/sha3"
+	"github.com/nbit99/openwallet/v2/crypto/sha3"
 )
 
 //MD5 加密

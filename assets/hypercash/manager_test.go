@@ -18,7 +18,7 @@ package hypercash
 import (
 	"github.com/asdine/storm"
 	"github.com/asdine/storm/q"
-	"github.com/blocktree/openwallet/v2/openwallet"
+	"github.com/nbit99/openwallet/v2/openwallet"
 	"github.com/codeskyblue/go-sh"
 	"github.com/shopspring/decimal"
 	"math"

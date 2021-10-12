@@ -18,9 +18,9 @@ BUILDDIR = build
 GITREV = $(shell git rev-parse --short HEAD)
 BUILDTIME = $(shell date +'%Y-%m-%d_%T')
 
-WMDLDFLAGS="-X github.com/blocktree/openwallet/cmd/wmd/commands.Version=${WMDVERSION} \
-	-X github.com/blocktree/openwallet/cmd/wmd/commands.GitRev=${GITREV} \
-	-X github.com/blocktree/openwallet/cmd/wmd/commands.BuildTime=${BUILDTIME}"
+WMDLDFLAGS="-X github.com/nbit99/openwallet/cmd/wmd/commands.Version=${WMDVERSION} \
+	-X github.com/nbit99/openwallet/cmd/wmd/commands.GitRev=${GITREV} \
+	-X github.com/nbit99/openwallet/cmd/wmd/commands.BuildTime=${BUILDTIME}"
 
 # OS platfom
 # options: windows-6.0/*,darwin-10.10/amd64,linux/amd64,linux/386,linux/arm64,linux/mips64, linux/mips64le

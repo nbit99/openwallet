@@ -17,10 +17,10 @@ package obyte
 
 import (
 	"fmt"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/common/file"
-	"github.com/blocktree/openwallet/v2/log"
-	"github.com/blocktree/openwallet/v2/openwallet"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/common/file"
+	"github.com/nbit99/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/openwallet"
 	"github.com/bndr/gotabulate"
 	"github.com/shopspring/decimal"
 	"github.com/tidwall/gjson"

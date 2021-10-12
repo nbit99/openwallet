@@ -17,8 +17,8 @@ package hypercash
 
 import (
 	"fmt"
-	"github.com/blocktree/openwallet/v2/crypto"
-	"github.com/blocktree/openwallet/v2/openwallet"
+	"github.com/nbit99/openwallet/v2/crypto"
+	"github.com/nbit99/openwallet/v2/openwallet"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/tidwall/gjson"
 )

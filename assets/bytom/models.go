@@ -17,8 +17,8 @@ package bytom
 
 import (
 	"github.com/asdine/storm"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/common/file"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/common/file"
 	"github.com/tidwall/gjson"
 	"path/filepath"
 )

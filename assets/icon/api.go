@@ -19,7 +19,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/log"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/imroc/req"
 	"github.com/shopspring/decimal"

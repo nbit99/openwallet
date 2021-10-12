@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/astaxie/beego/config"
-	"github.com/blocktree/openwallet/v2/common/file"
+	"github.com/nbit99/openwallet/v2/common/file"
 	"path/filepath"
 	"strings"
 )

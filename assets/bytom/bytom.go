@@ -18,9 +18,9 @@ package bytom
 import (
 	"errors"
 	"fmt"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/console"
-	"github.com/blocktree/openwallet/v2/timer"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/console"
+	"github.com/nbit99/openwallet/v2/timer"
 	"github.com/shopspring/decimal"
 	"io/ioutil"
 	"log"

@@ -18,8 +18,8 @@ package utils
 import (
 	"fmt"
 	"github.com/astaxie/beego/logs"
-	"github.com/blocktree/openwallet/v2/common/file"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/common/file"
+	"github.com/nbit99/openwallet/v2/log"
 	"path/filepath"
 )
 

@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/blocktree/openwallet/v2/log"
-	"github.com/blocktree/openwallet/v2/openwallet"
+	"github.com/nbit99/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/openwallet"
 )
 
 func createTransaction(tm *WalletManager, walletID, accountID, to string) (*openwallet.RawTransaction, error) {

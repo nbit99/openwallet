@@ -16,17 +16,17 @@
 package wmd
 
 import (
-	"github.com/blocktree/openwallet/v2/assets"
-	"github.com/blocktree/openwallet/v2/assets/bytom"
-	"github.com/blocktree/openwallet/v2/assets/cardano"
-	"github.com/blocktree/openwallet/v2/assets/decred"
-	"github.com/blocktree/openwallet/v2/assets/hypercash"
-	"github.com/blocktree/openwallet/v2/assets/icon"
-	"github.com/blocktree/openwallet/v2/assets/luxapla"
-	"github.com/blocktree/openwallet/v2/assets/obyte"
-	"github.com/blocktree/openwallet/v2/assets/sia"
-	"github.com/blocktree/openwallet/v2/assets/tezos"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/assets"
+	"github.com/nbit99/openwallet/v2/assets/bytom"
+	"github.com/nbit99/openwallet/v2/assets/cardano"
+	"github.com/nbit99/openwallet/v2/assets/decred"
+	"github.com/nbit99/openwallet/v2/assets/hypercash"
+	"github.com/nbit99/openwallet/v2/assets/icon"
+	"github.com/nbit99/openwallet/v2/assets/luxapla"
+	"github.com/nbit99/openwallet/v2/assets/obyte"
+	"github.com/nbit99/openwallet/v2/assets/sia"
+	"github.com/nbit99/openwallet/v2/assets/tezos"
+	"github.com/nbit99/openwallet/v2/log"
 )
 
 //WalletManagerInterface 钱包管理器

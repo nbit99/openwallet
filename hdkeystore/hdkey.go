@@ -32,8 +32,8 @@ import (
 	"path/filepath"
 
 	"github.com/nbit99/go-owcrypt"
-	"github.com/blocktree/openwallet/v2/crypto"
-	"github.com/blocktree/openwallet/v2/crypto/sha3"
+	"github.com/nbit99/openwallet/v2/crypto"
+	"github.com/nbit99/openwallet/v2/crypto/sha3"
 	"github.com/nbit99/go-owcdrivers/owkeychain"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

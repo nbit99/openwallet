@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/nbit99/go-owcrypt"
-	"github.com/blocktree/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/log"
 	"github.com/gorilla/websocket"
 	"github.com/mr-tron/base58/base58"
 	"github.com/tidwall/gjson"

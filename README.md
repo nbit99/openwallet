@@ -40,7 +40,7 @@ v2版本完全兼容v1版本，只需在go.mod中依赖v2最新版本
 ```go script
 
 require (
-    github.com/blocktree/openwallet/v2 latest
+    github.com/nbit99/openwallet/v2 latest
     ....
 )
 
@@ -54,7 +54,7 @@ require (
 GO111MODULE=on go get github.com/marwan-at-work/mod/cmd/mod
 
 # 在你的项目的根目录，执行命令，import openwallet库相关的文件都会更新到v2包
-mod upgrade --mod-name=github.com/blocktree/openwallet
+mod upgrade --mod-name=github.com/nbit99/openwallet
 
 ```
 
@@ -84,7 +84,7 @@ mod upgrade --mod-name=github.com/blocktree/openwallet
 
 ## Contributing
 
-如果你对项目有非常感兴趣，可创建[issue](https://github.com/blocktree/openwallet/issues/new) 分享你的想法和创意。
+如果你对项目有非常感兴趣，可创建[issue](https://github.com/nbit99/openwallet/issues/new) 分享你的想法和创意。
 
 ## Sponsors
 

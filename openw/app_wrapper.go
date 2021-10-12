@@ -17,7 +17,7 @@ package openw
 
 import (
 	"github.com/asdine/storm"
-	"github.com/blocktree/openwallet/v2/openwallet"
+	"github.com/nbit99/openwallet/v2/openwallet"
 )
 
 type AppID string

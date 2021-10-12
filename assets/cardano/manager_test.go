@@ -16,7 +16,7 @@
 package cardano
 
 import (
-	"github.com/blocktree/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/common"
 	"github.com/tidwall/gjson"
 	"log"
 	"testing"

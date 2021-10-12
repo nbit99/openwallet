@@ -18,8 +18,8 @@ package openwallet
 import (
 	"fmt"
 	"github.com/asdine/storm"
-	"github.com/blocktree/openwallet/v2/common"
-	"github.com/blocktree/openwallet/v2/crypto"
+	"github.com/nbit99/openwallet/v2/common"
+	"github.com/nbit99/openwallet/v2/crypto"
 )
 
 type Blockchain struct {

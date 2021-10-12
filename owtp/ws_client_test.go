@@ -18,8 +18,8 @@ package owtp
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/blocktree/openwallet/v2/log"
-	"github.com/blocktree/openwallet/v2/session"
+	"github.com/nbit99/openwallet/v2/log"
+	"github.com/nbit99/openwallet/v2/session"
 	"testing"
 	"time"
 )

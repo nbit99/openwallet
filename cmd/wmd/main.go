@@ -17,8 +17,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/blocktree/openwallet/v2/cmd/utils"
-	"github.com/blocktree/openwallet/v2/cmd/wmd/commands"
+	"github.com/nbit99/openwallet/v2/cmd/utils"
+	"github.com/nbit99/openwallet/v2/cmd/wmd/commands"
 	"gopkg.in/urfave/cli.v1"
 	"os"
 	"sort"
