@@ -7,7 +7,6 @@ require (
 	github.com/NebulousLabs/entropy-mnemonics v0.0.0-20181203154559-bc7e13c5ccd8
 	github.com/asdine/storm v2.1.2+incompatible
 	github.com/astaxie/beego v1.12.0
-	github.com/nbit99/go-owcrypt v1.0.3
 	github.com/bndr/gotabulate v1.1.2
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/btcsuite/btcd v0.20.1-beta // indirect
@@ -24,10 +23,11 @@ require (
 	github.com/imroc/req v0.2.4
 	github.com/lib/pq v1.3.0
 	github.com/mr-tron/base58 v1.1.3
-	github.com/nbit99/go-owcdrivers v1.0.3
+	github.com/nbit99/go-owcdrivers v1.0.13
+	github.com/nbit99/go-owcrypt v1.0.4
 	github.com/pborman/uuid v1.2.0
 	github.com/peterh/liner v1.1.1-0.20190123174540-a2c9a5303de7
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/shopspring/decimal v0.0.0-20200105231215-408a2507e114
 	github.com/siddontang/ledisdb v0.0.0-20190202134119-8ceb77e66a92
@@ -39,4 +39,5 @@ require (
 	golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
+
 //no replace
