@@ -97,8 +97,8 @@ simonluo@MBP15L:mainnet/$
 ```bash
 Within testnet('testnet','main')[testnet]:
 Where to run Walletnode: local/docker [docker]: local
-Start walletnode command: /usr/local/bin/bsv-cli XXXX       // 输入启动命令
-Stop walletnode command: /usr/local/bin/bsv-cli XXXX stop    // 输入关闭命令
+Start walletnode command: /usr/local/bin/dash-cli XXXX       // 输入启动命令
+Stop walletnode command: /usr/local/bin/dash-cli XXXX stop    // 输入关闭命令
 Start to create/update config file...
          create success!
          update success!

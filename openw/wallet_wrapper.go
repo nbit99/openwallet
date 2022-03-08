@@ -32,7 +32,9 @@ import (
 	"github.com/nbit99/openwallet/v2/log"
 	"github.com/tidwall/gjson"
 )
-
+const (
+	FilterBalanceKey = "FilterBalance"
+)
 type WalletDBFile WrapperSourceFile
 
 type WalletKeyFile string
@@ -222,7 +224,9 @@ func (wrapper *WalletWrapper) GetAddressList(offset, limit int, cols ...interfac
 	for i := 0; i < len(cols); i = i + 2 {
 		field := common.NewString(cols[i])
 		val := cols[i+1]
-		query = append(query, q.Eq(field.String(), val))
+		if field != FilterBalanceKey { //非sql条件
+			query = append(query, q.Eq(field.String(), val))
+		}
 	}
 
 	if limit > 0 {

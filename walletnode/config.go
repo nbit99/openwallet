@@ -197,8 +197,8 @@ testNetDataPath = "/data"
 			PORT:     [][3]string{{"9360/tcp", "10001", "20001"}},
 			APIPORT:  []string{"9360/tcp"},
 			IMAGE:    string("openw/btc:v0.15.1"),
-			ENCRYPT:  []string{"bsv-cli", "-datadir=/data", "-conf=/etc/bsv.conf", "encryptwallet 1234qwer"},
-			STOPCMD:  []string{"bsv-cli", "-datadir=/data", "-conf=/etc/bsv.conf", "stop"},
+			ENCRYPT:  []string{"bitcoin-cli", "-datadir=/data", "-conf=/etc/bitcoin.conf", "encryptwallet 1234qwer"},
+			STOPCMD:  []string{"bitcoin-cli", "-datadir=/data", "-conf=/etc/bitcoin.conf", "stop"},
 			LOGFIELS: [2]string{"debug.log", "testnet3/debug.log"},
 		},
 		"eth": &FullnodeContainerConfig{ // Release0929
