@@ -34,6 +34,7 @@ import (
 )
 const (
 	FilterBalanceKey = "FilterBalance"
+	ContractIDKey = "ContractID"
 )
 type WalletDBFile WrapperSourceFile
 
@@ -224,7 +225,7 @@ func (wrapper *WalletWrapper) GetAddressList(offset, limit int, cols ...interfac
 	for i := 0; i < len(cols); i = i + 2 {
 		field := common.NewString(cols[i])
 		val := cols[i+1]
-		if field != FilterBalanceKey { //非sql条件
+		if field != FilterBalanceKey && field != ContractIDKey{ //非sql条件
 			query = append(query, q.Eq(field.String(), val))
 		}
 	}
