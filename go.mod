@@ -23,7 +23,7 @@ require (
 	github.com/imroc/req v0.2.4
 	github.com/lib/pq v1.3.0
 	github.com/mr-tron/base58 v1.1.3
-	github.com/nbit99/go-owcdrivers v1.0.13
+	github.com/nbit99/go-owcdrivers v1.0.16
 	github.com/nbit99/go-owcrypt v1.0.5
 	github.com/pborman/uuid v1.2.0
 	github.com/peterh/liner v1.1.1-0.20190123174540-a2c9a5303de7
@@ -41,3 +41,6 @@ require (
 )
 
 //no replace
+//replace (
+//	github.com/nbit99/go-owcdrivers => ../go-owcdrivers
+//)
