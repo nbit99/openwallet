@@ -49,6 +49,9 @@ type WalletDAI interface {
 
 	//获取单个地址
 	GetAddress(address string) (*Address, error)
+
+	//查询有余额的地址列表
+    GetAddressListContainsBalance(offset, limit int, cols ...interface{}) ([]string, error)
 	//查询地址列表
 	GetAddressList(offset, limit int, cols ...interface{}) ([]*Address, error)
 	//设置地址的扩展字段
