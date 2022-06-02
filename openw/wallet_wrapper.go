@@ -205,6 +205,22 @@ func (wrapper *WalletWrapper) GetAddress(address string) (*openwallet.Address, e
 	return &obj, nil
 }
 
+//
+func (wrapper *WalletWrapper)  GetAddressListContainsBalance(offset, limit int, cols ...interface{}) ([]string, error) {
+	var addresses []string
+
+	addrs, err := wrapper.GetAddressList(offset, limit, cols)
+	if err != nil {
+		return nil, fmt.Errorf("can not find addresses")
+	}
+
+	for _, a := range addrs {
+		addresses = append(addresses, a.Address)
+	}
+
+	return addresses, nil
+}
+
 // GetAddresses 获取资产账户地址列表
 func (wrapper *WalletWrapper) GetAddressList(offset, limit int, cols ...interface{}) ([]*openwallet.Address, error) {
 	//打开数据库
